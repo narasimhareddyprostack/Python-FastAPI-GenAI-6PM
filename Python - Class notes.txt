@@ -1,0 +1,92 @@
+Python?
+What is Python?
+General Purpose PL?
+
+
+VS Code?  IDE
+AntiGravity
+Thonny
+PyCharm
+Jupyter note book
+
+
+Hello World  Java/Py/JS
+-----------------------
+class Test{
+
+public static void main(String[] args){
+System.out.println("Hello World");
+}
+}
+
+
+#include<std.io>
+
+void main(){
+	printf("Hello,World")
+}
+main()
+
+
+=============================
+Web Application - Python-Django/FastAPI/Flask
+Devops -Python Script
+Gaming Dev
+AI Agent/Gen AI - Pthon
+
+Data Engineering
+Data Analytics
+Data Science  
+-----------------------------
+Python is General Purpose, Highlevel & Interpreted 
+Dynamic Typed Programming language.
+
+
+eid=101
+ename="Rahul"
+esal=45000.45
+
+Java
+-------------------
+int eid=101;
+String ename="Rahul";
+double esal=45000.45;
+JS
+-------------------
+var eid=101;
+var ename="Rahul"
+var esal=45000.45
+Python
+------
+eid=101
+ename="Rahul"
+esal=45000.45
+eid=[]
+
+
+
+Compiler Based
+--------------
+Java
+C
+C++
+TS
+.Net
+
+Interpretetor Based
+------------------
+JS
+Python
+Shell Script
+Perl Schirpt
+======================
+Python Fast API Road Map
+------------------------
+Python Introduction
+Software & IDE
+
+VS Code?  IDE
+AntiGravity
+Thonny
+PyCharm
+Jupyter note book
