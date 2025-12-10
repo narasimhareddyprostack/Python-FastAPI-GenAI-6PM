@@ -82,5 +82,41 @@ Perl Schirpt
 ======================
 Python Fast API Road Map
 ------------------------
+
+Part -1
+-------
 Python Introduction
 Software & IDE
+Python St,Identifies,Data Types,Keywords
+Python Features
+Python Operators, 
+Control flow(Conditional Iterative Flow)
+Python Function
+
+Part -2
+--------
+Data Structure
+List,Tuple,Set,Dict,String
+
+Part-3
+------
+File Handling,ErrorHandling
+Module Packages
+OOP - Python
+
+Part -4
+-------
+Database(PDBC)-Mysql,MonogDB
+Python-AWS Boto3
+
+
+Prompt Engineering
+----------------
+
+GenAI
+-----
+Task:
+
+50 AI Tools
+-----------
+Sora - creating video based on prompt
