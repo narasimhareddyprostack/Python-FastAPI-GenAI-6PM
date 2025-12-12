@@ -211,3 +211,59 @@ bytearray()
 frozenset()
 range()
 nontype()
+
+
+list
+tuple
+set
+dict
+-------------------------------
+
+list - Data Structure
+----------------------
+--group of elements/items/values/objects as one entity
+--allowed dupliates and allowed heterogenous elements
+--elements are storing based on indexing(0  to n-1)
+--python -ve indexing also.
+--Insertion Order/order maintained
+--List is mutable object.
+--List is iterable object, we can iterate using
+a)for loop
+b)while loop
+
+Mutalbe vs Immutable?
+----------------------
+enames=["Rahul","Sonia","Priya","Modi"]
+#index    0       1       2       3
+
+#update Rahul to Rahul Gandhi
+#update Priya to Priyanka
+
+
+Tuple - DS
+==================================
+--group of elements/items/values/objects as one entity
+--allowed dupliates and allowed heterogenous elements
+--elements are storing based on indexing(0  to n-1)
+--python -ve indexing also possible.
+--Insertion Order/order maintained
+--Tuple is immutable object.
+--Tuple is iterable object, we can iterate using
+a)for loop
+b)while loop
+
+numbers=(10,20,30,10,10,20,30)
+
+Note: Tuple is read only version of list.
+==========================================
+set - DS
+-------------
+--> group of elmenets/values/items/object as one entity
+-->allowed heteogenous elements 
+-->Duplicates are not allowed
+-->Indexing concpet is not applicable.
+--Insertion Order/order maintained.
+-->Set is Mutalbe object
+-->we can iterate set object using for loop.
+
+
