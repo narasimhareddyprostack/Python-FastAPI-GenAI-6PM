@@ -1,6 +1,9 @@
 Python?
 What is Python?
-General Purpose PL?
+
+General Purpose,
+HighLevel & Interpreted, 
+Dynamic Typed PL
 
 
 VS Code?  IDE
@@ -120,3 +123,98 @@ Task:
 Top 50 AI Tools
 -----------
 Sora - creating video based on prompt
+
+
+Python Identifier Rules
+1.Idnetifier contains a-z /A-Z, 0-9,_
+2.Identifier should not start with digits
+3.should not contains any special char/symbols
+4.keyword/RW should not use as identifiers
+5.case censitive.
+
+
+['False', 'None', 'True', 
+'and', 'as', 'assert', 'async', 'await', 
+'break', 'class', 'continue', 
+'def', 'del', 'elif', 'else', 
+'except', 'finally', 'for', 'from', 
+'global', 'if', 'import', 'in', 'is', 
+'lambda', 'nonlocal', 'not', 'or', 'pass', 
+'raise', 'return', 'try', 'while', 'with', 'yield']
+
+No of Keyword: 35
+
+Data Types:
+---------------
+Python Dynamic Typed 
+---------------------
+eid=101
+ename="Rahul"
+
+java - Static Typed
+---------------------
+int eid=101;
+String ename="Rahul";
+
+Python Data Types:
+---------------------
+int
+float
+str
+complex
+bool
+
+list
+tuple
+set
+dict
+
+bytes
+bytearray
+frozenset
+range
+nonType
+=========================================
+
+int - Data Type
+---------------
+a=100
+b=0b1111
+c=0o17
+d=0xAF
+
+decimal format   -  base 10  (0-9)
+binary format    -  base 2   (0,1)
+octal format     -  base 8   (0,7)
+hexdecimal format-  base 16  (0-9,a,b,c,d,e,f)
+
+Python Inbuilt functions
+
+Typecasting Function in Python?
+-------------------------------
+bin()
+oct()
+hex()
+
+int()
+float()
+str()
+complex()
+bool()
+
+list()
+typle()
+set()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+nontype()
+
+
+list
+tuple
+set
+dict
+-------------------------------
