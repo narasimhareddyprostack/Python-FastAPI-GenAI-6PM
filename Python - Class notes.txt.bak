@@ -262,8 +262,114 @@ set - DS
 -->allowed heteogenous elements 
 -->Duplicates are not allowed
 -->Indexing concpet is not applicable.
---Insertion Order/order maintained.
+--Insertion Order/order not maintained.
 -->Set is Mutalbe object
 -->we can iterate set object using for loop.
 
 
+===================================================
+Dict/Dictionany/
+Java - Map/HashMap
+JS   - JS Object
+Python - Dict
+
+what is dict?
+-->group of key:value pairs as one enity.
+-->group of properties as one enity.
+-->duplicate keys are not allowed.
+-->indexing concept is not applicable.
+-->dict is mutable object.
+
+CRUD - Operation.
+
+Python - inbuilt functin.
+print() => display output on console/Command prompt
+input() => read input from user. default type is str
+type()  => return data type 
+id()    => return address/ref of the object
+min()   => return min of given sequence
+max()   => return max of given sequence
+len()   => return no of element of of sequence.
+sorted()
+map()
+filter()
+
+int()
+float()
+str()
+complex()
+bool()
+list()
+tuple()
+set()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+nontype()
+bin()
+oct()
+hex()
+
+
+==========================
+range():
+-->if you want to generate sequence of integers
+range([start],end,[step])
+-->start - optional . default value is 0
+-->step  - optional . default value +1
+
+range(1,10,1)  = range(1,10,1)
+range(5,50)    = range(5,50,1)
+range(10)      = range(0,10,1)
+range(2,21,2)  = range(2,21,2)
+
+
+print 1 to 10 using range()?
+
+for num in range(1,11,1):
+    print(num)
+
+
+========================
+SyntaxError
+IndexError
+KeyError
+NameError
+TypeError
+ValueError
+IndentationError
+AttributeError
+ZeroDivitionError
+FileNotFoundError
+FileExistsError
+
+Python funciton(40 with exmaples)
+python 25 Error with example
+======================================
+a=100
+b=200
+a+b
+a,b --> operands
++   --> Operatores
+Python Operators?
+
+Arithmatic Operators   -->  +,-,*,/,//,%, **
+Relation               -->  <,<=,>,>=
+Logical                -->  and, or 
+Equality Operators     -->  == , !=
+Assignment OPerators   -->  =
+Memmbership Operators  -->  in, not in
+Identity Operators     --> is, is not
+Bitwise Operators       
+
++ ==> Aritmatic Operators
+addition and concatination
+
+10+20         30
+10+'20'       TypeError 
+
+
+Division vs Floor Division Operator
+-----------------------------------
