@@ -356,8 +356,8 @@ a,b --> operands
 Python Operators?
 
 Arithmatic Operators   -->  +,-,*,/,//,%, **
-Relation               -->  <,<=,>,>=
-Logical                -->  and, or 
+Relation   Operators   -->  <,<=,>,>=
+Logical    Operators   -->  and, or 
 Equality Operators     -->  == , !=
 Assignment OPerators   -->  =
 Memmbership Operators  -->  in, not in
@@ -369,7 +369,145 @@ addition and concatination
 
 10+20         30
 10+'20'       TypeError 
+==============================
+
 
 
 Division vs Floor Division Operator
 -----------------------------------
+
+import math
+math.ceil(2.6)  #3
+math.floor(2.6) #2
+
+
+Relation   Operators   -->  <,<=,>,>=
+Logical    Operators   -->  and, or 
+Equality Operators     -->  == , !=
+
+output always bool value ie True/False
+
+
+esal = 45000
+print(esal>=40000)  #True
+
+============================================
+Memmbership Operators  -->  in, not in
+verify element/value present in sequence or not?
+Sequence?
+
+list
+tuple
+set
+str
+bytes
+bytearray
+range
+frozenset
+
+eids=[101,102,103,104]
+enames=("RG","SG","PG","Modi")
+sizes={'S','M','L','XL'}
+ename="Rahul"
+b=bytes([10,20,30,255])
+ba=bytearray([10,20,30,255])
+numbers=range(100)
+fz=frozenset({10,20,10,20})
+
+
+Identity Operators     --> is, is not
+Address/ref Comparision 
+
+control flow st
+------------------
+conditional st                 iterative st
+=============================================
+if                             for loop
+if-else                        while
+if-elif-else
+if-elif 
+
+Note: In Python There is no - swithc-case-break-default
+Note: In Python there is no - do..while loop
+
+WAP read value from user? 
+and print given number is even or odd?
+and print given number is 3 Digit Number or not?
+============================================
+
+For loop?
+
+to iterate Py sequences? we are using for loop
+
+list
+tuple
+set
+bytes
+ba
+fz
+range()
+str
+
+
+for element in seq:
+    st1
+    st2
+    st2
+
+enames=["Rahul","Sonia","Priyanka","Modi"]
+eids=(101,102,103,104)
+eids={101,102,103}
+ename="Rahul"
+range(10)
+
+enames=["Rahul","Sonia","Priyanka","Modi"]
+
+for ename in enames:
+    print(ename)
+
+==========================================
+from above data?
+
+print all employee names using for loop?
+print all male employee names using for loop?
+
+print number of male employees?
+print number of female employees?
+
+range() - generate sequence of integers
+
+1,2,3,4
+10,20,30,40
+50,100,150,200
+100,99,98,97,.....51
+
+while loop? execute block of code 5/n times
+
+GM - 10 times?
+
+initilization st : i=1
+conditional st   : i<=10
+incr/decr st     : i=i+1
+
+initilization st
+
+while conditional st:
+     st1
+     st2
+
+     incr/decr st
+
+WAP to print first 10 even numbers using
+1)for loop
+2)while loop
+
+2,4,6,8,10,12,14,16,18,20  - range(2,21,2)
+
+for num in range(2,21,2):
+    print(num)
+
+
+i=2
+while i<=20:
+     print(i)
+     i=i+2
