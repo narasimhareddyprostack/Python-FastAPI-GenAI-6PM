@@ -511,3 +511,160 @@ i=2
 while i<=20:
      print(i)
      i=i+2
+
+list,tuple,set,dict,str - methods
+==================================
+list - Data Structure
+----------------------
+--group of elements/items/values/objects as one entity
+--allowed dupliates and allowed heterogenous elements
+--elements are storing based on indexing(0  to n-1)
+--python -ve indexing also.
+--Insertion Order/order maintained
+--List is mutable object.
+--List is iterable object, we can iterate using
+a)for loop
+b)while loop
+
+
+create        read       update         delete
+++++++++++++++++++++++++++++++++++++++++++
+list()      l.count(e)   l.append(ele)   l.remove(ele)
+l.copy()    l.index(ele) l.extend(l1)    l.pop()
+                         l.sort()        l.clear()
+			 l.reverse()  
+			 
+eids=[101,102,101,102,101,103,104]
+#index 0   1   2   3    4  5   6
+
+eids.count(102)  #2
+#return no of occurance of specified element
+
+eids.index(103)  #5
+#return index value of first occurance  specified element
+
+eids.append(105)
+#add element to end of list
+
+List - remove() vs pop() vs clear()
+=======================================
+l.clear()  #remove all elements from list
+l.remove(element) 
+# remove the specified element
+# if element not present - we will get ValueError
+
+l.pop() 
+#remove last element from list
+#if list is empty - We will get IndexError
+Tuple - DS
+==================================
+--group of elements/items/values/objects as one entity
+--allowed dupliates and allowed heterogenous elements
+--elements are storing based on indexing(0  to n-1)
+--python -ve indexing also possible.
+--Insertion Order/order maintained
+--Tuple is immutable object.
+--Tuple is iterable object, we can iterate using
+a)for loop
+b)while loop
+
+numbers=(10,20,30,10,10,20,30)
+
+Note: Tuple is read only version of list.
+==========================================
+
+Tuple - t.count() and t.index()
+==========================================
+enames=["Rahul","Sonia","Priyanka","Modi","Amith"]
+enames.sort()
+
+unames=("Rahul","Sonia","Priyanka","Modi","Amith")
+How to sort List object?
+How to sort Tuple object?
+
+Python Inbuilt Function?
+sorted() - sort your elements/sequences
+========================================================
+
+set - DS
+-------------
+-->group of elmenets/values/items/object as one entity
+-->allowed heteogenous elements 
+-->Duplicates are not allowed
+-->Indexing concpet is not applicable.
+-->Insertion Order/order not maintained.
+-->Set is Mutalbe object
+-->we can iterate set object using for loop.
+Set - Methods
+
+Create		Read		Update	      Delete
+++++++++++++++++++++++++++++++++++++++++++++++++
+s1=set()                        s.add()       s.clear()  
+s2={10,20}                      s.update(s2)  s.remove(ele)
+				              s.discard(ele)
+
+s1.union(s2)
+s1.intersection(s2)
+s1.difference(s2)
+s1.symmetric_Differeice(s2)
+==========================================================
+s.add(elemenet)
+#add element to set
+
+s1.updade(s2)
+add another set object
+
+set.add(ele) vs set.update(s2)
+=============================================
+set.remove(ele) vs set.discard(ele)
+
+#remove()-method removes the specified element from set
+#disard()-method also removes the specified element from set
+
+#If element not present in set- 
+#remove() method return error  KeyError
+
+#If element not present in set- 
+#discard() method return no error
+=======================================================
+
+s1.union(s2)
+s1.intersection(s2)
+s1.difference(s2)
+s1.symmetric_Differeice(s2)
+=======================================================
+Dict/Dictionany/
+Java - Map/HashMap
+JS   - JS Object
+Python - Dict
+
+what is dict?
+-->group of key:value pairs as one enity.
+-->group of properties as one enity.
+-->duplicate keys are not allowed.
+-->indexing concept is not applicable.
+-->dict is mutable object.
+
+Create	 Read		update		Delete
++++++++++++++++++++++++++++++++++++++++++++++++++
+d1.copy()  d1.get(key)  d1.set_defualt()  d1.clear()
+	  			          d1.pop(key)
+					  d1.popitem()
+					 
+
+dict.keys()
+dict.values()
+dict.items()
+=================================================
+d1.get(key)
+#return dict value of specified key
+#if specified key not present-we will get None
+
+d1.values() - return all values from dict in list
+d1.keys() -   return all keys from dict in list
+d1.items() - return all key,value from dict
+
+
+
+#dict.pop(key)  #remove specified key and value from dict
+#dict.popitem() #remove last /arbitory key:value pair from dict
