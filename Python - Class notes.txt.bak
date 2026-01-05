@@ -668,3 +668,19 @@ d1.items() - return all key,value from dict
 
 #dict.pop(key)  #remove specified key and value from dict
 #dict.popitem() #remove last /arbitory key:value pair from dict
+
+list-tuple-set-dict
+CRUD
+
+Python Functions
+================
+group of statement for specific functionality
+execute business login and return values
+def keyword
+
+Arguments-4 Types
+++++++++++++++++++++
+Positional Arguemts
+Keyword Arguments
+Default Arguments
+var-length Arguments
