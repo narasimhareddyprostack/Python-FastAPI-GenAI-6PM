@@ -687,3 +687,16 @@ var-length Arguments
 
 
 How to invoke inner function? from outside?
+================================================
+filter() - to filter values from given sequences.
+map() function: 
+for every element present in sequence, 
+apply some functionality
+and generate new element with required modification.
+
+[1,2,3,4,5,6,7,8]
+[6,7,8,9,10,11,12,13]
+
+numbers=[1,2,3,4,5,6,7,8]
+def plusfive(num):
+	return num+5

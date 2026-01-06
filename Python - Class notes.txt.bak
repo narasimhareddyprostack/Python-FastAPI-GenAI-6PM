@@ -684,3 +684,6 @@ Positional Arguemts
 Keyword Arguments
 Default Arguments
 var-length Arguments
+
+
+How to invoke inner function? from outside?
