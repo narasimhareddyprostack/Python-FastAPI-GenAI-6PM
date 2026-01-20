@@ -749,3 +749,116 @@ open("data.txt",'r')
 open("bangalore.txt",'w')
 
 file pointer properties?
+============================
+
+JSON - Javascript Object Notation
+
+emp.json
+[
+{"eid":101,"ename":"Rahul"},
+{"eid":101,"ename":"Sonia"}
+...
+
+]
+
+To exchange data between multiple software comp.
+XML/JSON.
+
+CSV
+-----
+comma Separate Version
+
+emp.csv
+------------------
+eid,ename,esal
+101,Rahul,45000.45
+102,Sonia,55000.55
+
+================================
+emp.json
+
+Task 1: read emp.json file print all employee names?
+Task 2: read emp.json file write data into user.json file
+Task 3: read emp.json and write all male emp into male.json file
+Task 4: read emp.json and write all female emp into female.json file.
+Task 5:
+
+============================
+Rest API?
+How to invoke rest API in Python?
+
+requests - modules
+
+usage:get all users
+API URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Test your rest API>
+API Testing Tools: Post Man
+
+=====================================
+usage:fetch all Products
+API URL:https://dummyjson.com/products
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Step 1: Test your Rest API? PM
+============================
+usage:fetch all Products
+How Test RestAPI?  Post MAN toon
+Rest API :https://dummyjson.com/products
+
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Task: invoke rest api? update data based on requirement.
+      write data into new json and csv files.
+
+ETL:
++++++++++++++++++++++++++++
+Extract :
+Transform:
+Load:
+
+===========================================================
+Task 2:
+Write a python script to invoke below rest api.
+and write product data into new json file and new csv file.
+product data: product_id,name,price,category,rating
+
+Rest API information
+++++++++++++++++++++
+Usage:fetch all products
+Rest API URL:https://dummyjson.com/products
+Method Type:GET
+Access Type:Public
+
+Test your Rest API? Testing Tool- Post Man/Karate/
+
+How to invoke/consume Rest API in python? 
+           requests module(requests.get(),post,put,delete)
+How to handle json files - json module(load,dump)
+How to handle csv files  - csv module(reader,writer)
+
+
+
+Task 3:
+Write a python script to invoke below rest api.
+and write beauty products data into 
+new json file(beauty.json) 
+and new csv file(beauty.csv)
+
+product data: product_id,name,price,category,rating
+
+Rest API information
+++++++++++++++++++++
+Usage:fetch all products
+Rest API URL:https://dummyjson.com/products
+Method Type:GET
+Access Type:Public
+
+
