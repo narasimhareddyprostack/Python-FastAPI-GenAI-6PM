@@ -848,7 +848,10 @@ How to handle csv files  - csv module(reader,writer)
 
 Task 3:
 Write a python script to invoke below rest api.
-and write product data into new json file and new csv file.
+and write beauty products data into 
+new json file(beauty.json) 
+and new csv file(beauty.csv)
+
 product data: product_id,name,price,category,rating
 
 Rest API information

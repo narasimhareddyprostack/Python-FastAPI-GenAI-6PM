@@ -861,4 +861,8 @@ Rest API URL:https://dummyjson.com/products
 Method Type:GET
 Access Type:Public
 
+===============================
+class contains variable and methods
 
+variable --> instance var,static/class variable,local variable
+Method   --> instance method,class method,static method
